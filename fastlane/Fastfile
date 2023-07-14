@@ -1,0 +1,45 @@
+default_platform(:ios)
+
+### SUPPORT LANES ###
+
+lane :match_development do |options|
+  match_with_type(
+    app_identifier: ['proxyman.workshop.development'],
+    type: 'development',
+    force: true,
+    readonly: false
+  )
+end
+
+lane :match_staging do |options|
+  match_with_type(
+    app_identifier: ['proxyman.workshop.holdapp'],
+    type: 'appstore',
+    readonly: false
+  )
+end
+
+lane :match_production do |options|
+  match_with_type(
+    app_identifier: ['proxyman.workshop.production'],
+    type: 'appstore',
+    readonly: false
+  )
+end
+
+### PRIVATE LANES ###
+
+private_lane :match_with_type do |options|
+  app_identifier = options[:app_identifier]
+  type = options[:type]
+  readonly = options[:readonly]
+  force = options[:force] || false
+
+  match(
+    username: 'kamil.gronert@holdapp.pl',
+    app_identifier: app_identifier,
+    type: type,
+    force_for_new_devices: force,
+    readonly: readonly
+  )
+end
