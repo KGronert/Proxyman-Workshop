@@ -14,7 +14,6 @@ protocol ConfigurationProvider {
 }
 
 enum ConfigurationType: String {
-    case staging = "Staging"
     case production = "Production"
     case development = "Development"
 }
@@ -27,7 +26,6 @@ class ConfigurationProviderImpl: ConfigurationProvider {
         guard let configurationType = ConfigurationType(rawValue: configurationName) else { fatalError("Couldn't determine configuration") }
         
         switch configurationType {
-        case .staging: return StagingConfiguration()
         case .production: return ProductionConfiguration()
         case .development: return DevelopmentConfiguration()
         }

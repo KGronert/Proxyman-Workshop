@@ -11,17 +11,9 @@ lane :match_development do |options|
   )
 end
 
-lane :match_staging do |options|
-  match_with_type(
-    app_identifier: ['proxyman.workshop.holdapp'],
-    type: 'appstore',
-    readonly: false
-  )
-end
-
 lane :match_production do |options|
   match_with_type(
-    app_identifier: ['proxyman.workshop.production'],
+    app_identifier: ['proxyman.workshop.holdapp'],
     type: 'appstore',
     readonly: false
   )

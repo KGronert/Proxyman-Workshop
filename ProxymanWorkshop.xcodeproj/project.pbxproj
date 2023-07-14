@@ -25,7 +25,6 @@
 		8E055D0E2A02F1DE000D96A9 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D012A02F1DD000D96A9 /* NetworkResult.swift */; };
 		8E055D0F2A02F1DE000D96A9 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D022A02F1DD000D96A9 /* RequestFactory.swift */; };
 		8E055D162A02F1E5000D96A9 /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D112A02F1E5000D96A9 /* ConfigurationProvider.swift */; };
-		8E055D172A02F1E5000D96A9 /* StagingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D122A02F1E5000D96A9 /* StagingConfiguration.swift */; };
 		8E055D182A02F1E5000D96A9 /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D132A02F1E5000D96A9 /* ProductionConfiguration.swift */; };
 		8E055D192A02F1E5000D96A9 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D142A02F1E5000D96A9 /* Configuration.swift */; };
 		8E055D1A2A02F1E5000D96A9 /* DevelopmentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E055D152A02F1E5000D96A9 /* DevelopmentConfiguration.swift */; };
@@ -49,7 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E055CBC2A02EDEC000D96A9 /* Proxyman Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proxyman Workshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E055CBC2A02EDEC000D96A9 /* Workshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E055CBF2A02EDEC000D96A9 /* ProxymanWorkshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxymanWorkshopApp.swift; sourceTree = "<group>"; };
 		8E055CC32A02EDED000D96A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E055CC62A02EDED000D96A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		8E055D012A02F1DD000D96A9 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		8E055D022A02F1DD000D96A9 /* RequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
 		8E055D112A02F1E5000D96A9 /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
-		8E055D122A02F1E5000D96A9 /* StagingConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StagingConfiguration.swift; sourceTree = "<group>"; };
 		8E055D132A02F1E5000D96A9 /* ProductionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionConfiguration.swift; sourceTree = "<group>"; };
 		8E055D142A02F1E5000D96A9 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		8E055D152A02F1E5000D96A9 /* DevelopmentConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentConfiguration.swift; sourceTree = "<group>"; };
@@ -114,7 +112,7 @@
 		8E055CBD2A02EDEC000D96A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E055CBC2A02EDEC000D96A9 /* Proxyman Workshop.app */,
+				8E055CBC2A02EDEC000D96A9 /* Workshop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				8E055D112A02F1E5000D96A9 /* ConfigurationProvider.swift */,
-				8E055D122A02F1E5000D96A9 /* StagingConfiguration.swift */,
 				8E055D132A02F1E5000D96A9 /* ProductionConfiguration.swift */,
 				8E055D142A02F1E5000D96A9 /* Configuration.swift */,
 				8E055D152A02F1E5000D96A9 /* DevelopmentConfiguration.swift */,
@@ -305,7 +302,7 @@
 				8E055D382A02F25B000D96A9 /* Kingfisher */,
 			);
 			productName = ProxymanWorkshop;
-			productReference = 8E055CBC2A02EDEC000D96A9 /* Proxyman Workshop.app */;
+			productReference = 8E055CBC2A02EDEC000D96A9 /* Workshop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -367,7 +364,6 @@
 				8E055D0A2A02F1DE000D96A9 /* MoviesListRequest.swift in Sources */,
 				8E055D202A02F1EF000D96A9 /* UserDefaultsWrapper.swift in Sources */,
 				8EB5BE152A03DE4200E3B708 /* MovieDetailsView.swift in Sources */,
-				8E055D172A02F1E5000D96A9 /* StagingConfiguration.swift in Sources */,
 				8E3F0A242A60A41100BA8F60 /* ErrorView.swift in Sources */,
 				8E055CC02A02EDEC000D96A9 /* ProxymanWorkshopApp.swift in Sources */,
 				8E055D0C2A02F1DE000D96A9 /* ImageRequest.swift in Sources */,
@@ -531,7 +527,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProxymanWorkshop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Proxyman Workshop";
+				INFOPLIST_KEY_CFBundleDisplayName = Workshop;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -544,7 +540,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = proxyman.workshop.development;
-				PRODUCT_NAME = "Proxyman Workshop";
+				PRODUCT_NAME = Workshop;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development proxyman.workshop.development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -561,102 +557,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProxymanWorkshop/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProxymanWorkshop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Proxyman Workshop";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = proxyman.workshop.production;
-				PRODUCT_NAME = "Proxyman Workshop";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Production;
-		};
-		8E055D3A2A02F3DF000D96A9 /* Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Staging;
-		};
-		8E055D3B2A02F3DF000D96A9 /* Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -666,7 +566,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProxymanWorkshop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Proxyman Workshop";
+				INFOPLIST_KEY_CFBundleDisplayName = Workshop;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -679,7 +579,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = proxyman.workshop.holdapp;
-				PRODUCT_NAME = "Proxyman Workshop";
+				PRODUCT_NAME = Workshop;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore proxyman.workshop.holdapp";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -689,7 +589,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Staging;
+			name = Production;
 		};
 /* End XCBuildConfiguration section */
 
@@ -698,7 +598,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E055CDE2A02EDED000D96A9 /* Development */,
-				8E055D3A2A02F3DF000D96A9 /* Staging */,
 				8E055CDF2A02EDED000D96A9 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -708,7 +607,6 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8E055CE12A02EDED000D96A9 /* Development */,
-				8E055D3B2A02F3DF000D96A9 /* Staging */,
 				8E055CE22A02EDED000D96A9 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
